@@ -29,7 +29,7 @@ The site landing page features a carousel displaying the mobile truck as well as
 ### Profile Page
 
 ### About Me Page
-https://github.com/deyoung1028/deluxe-pawz/issues/1#issue-1014094018
+![about](https://user-images.githubusercontent.com/85690354/135724190-71fd2ff4-b9e3-4412-b5f1-5b54ea391e53.png)
 
 #### Front-End Technologies
 -React
