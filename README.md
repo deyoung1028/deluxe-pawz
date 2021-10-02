@@ -24,6 +24,9 @@ The site landing page features a carousel displaying the mobile truck as well as
 
 ### Services Page
 
+### Add-On Services
+![addon](https://user-images.githubusercontent.com/85690354/135724214-98971814-2c98-435b-8082-de83166311cf.png)
+
 ### Add a Pet Page
 
 ### Profile Page
