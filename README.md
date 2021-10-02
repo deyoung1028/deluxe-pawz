@@ -30,25 +30,25 @@ The site landing page features a carousel displaying the mobile truck as well as
 
 ### About Me Page
 
-### Front-End Technologies
+#### Front-End Technologies
 -React
 -Redux
 -Bootstrap
 -CSS
 -JavaScript
 
-### Back-End Technologies
+#### Back-End Technologies
 
 -Node.js
 -bcrypt
 -Express
 -pg-promise
 
-### Databse
+#### Databse
 
 -Elephant SQL
 -PostgreSQL
 
-### Software Engineer
+#### Software Engineer
 
 Jennifer DeYoung
