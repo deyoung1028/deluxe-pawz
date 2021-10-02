@@ -18,40 +18,48 @@ The site landing page features a carousel displaying the mobile truck as well as
 
 ### Landing Page
 
+
+![landingpage](https://user-images.githubusercontent.com/85690354/135724245-6f09a4e0-da03-4443-b31b-8316ba51a69b.png)
+
 ### Login Page
+![login](https://user-images.githubusercontent.com/85690354/135724250-2ed35ce4-7c2e-403f-8f97-d20b99635e31.png)
 
 ### Signup Page
+![signup](https://user-images.githubusercontent.com/85690354/135724263-63b08eb4-ebc3-4dc2-b820-137b27445d6c.png)
 
 ### Services Page
+![services](https://user-images.githubusercontent.com/85690354/135724257-751394d5-9520-4ec0-a8f0-af1a95196cdd.png)
 
 ### Add-On Services
 ![addon](https://user-images.githubusercontent.com/85690354/135724214-98971814-2c98-435b-8082-de83166311cf.png)
 
 ### Add a Pet Page
+![addpet](https://user-images.githubusercontent.com/85690354/135724236-cd3a42a1-2131-421b-92f8-4fe3a853dcce.png)
 
 ### Profile Page
+![profile](https://user-images.githubusercontent.com/85690354/135724254-7aeb77bf-6485-4de1-9ecc-68cd7b5cdbef.png)
 
 ### About Me Page
 ![about](https://user-images.githubusercontent.com/85690354/135724190-71fd2ff4-b9e3-4412-b5f1-5b54ea391e53.png)
 
 #### Front-End Technologies
--React
--Redux
--Bootstrap
--CSS
--JavaScript
+React
+Redux
+Bootstrap
+CSS
+JavaScript
 
 #### Back-End Technologies
 
--Node.js
--bcrypt
--Express
--pg-promise
+Node.js
+bcrypt
+Express
+pg-promise
 
 #### Databse
 
--Elephant SQL
--PostgreSQL
+Elephant SQL
+PostgreSQL
 
 #### Software Engineer
 
