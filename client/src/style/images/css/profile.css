@@ -1,0 +1,28 @@
+.userProfile {
+    text-align: center;
+}
+
+.petlist {
+    list-style: none;
+    color: #69ABAD;
+}
+
+h2{
+    color: #69ABAD;
+}
+
+.userPets {
+    text-align: center;
+    list-style: none;
+    color: #69ABAD;
+}
+
+.petlist {
+    color: #69ABAD;
+
+}
+
+.profileimg {
+    width: 100%;
+    max-width: 200px;
+}

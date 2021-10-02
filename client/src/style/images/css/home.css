@@ -1,0 +1,24 @@
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #2C3536;
+}
+.homeCarousel {
+    width: 75%;
+    max-width: 1000px;
+    background-color: #2C3536;
+     
+}
+.homeLabel{
+    color: white;
+    
+}
+
+.homecaption {
+    color: #58949C ;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+

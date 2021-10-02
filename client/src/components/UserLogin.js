@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import {connect} from 'react-redux'
-import {useHistory} from 'react-router-dom';
+import dpyellowlab from '../style/images/dpyellowlab.jpg'
+import '../style/images/css/login.css'
+import{Card, Button} from 'react-bootstrap'
 
 function UserLogin (props) {
     const [user, setUserLogin] = useState({
@@ -10,7 +12,6 @@ function UserLogin (props) {
     })
     const [errormsg, setErrormsg] = useState ()
 
-    let history = useHistory();
 
     const handleOnChange = (e) => {
         setUserLogin({
@@ -46,13 +47,21 @@ function UserLogin (props) {
 
     return (
         <div className = "login">
-            <h2>Login</h2>
-            <label>UserName</label>
-            <input name = 'user_name' type = "text" onChange={handleOnChange}/>
-            <label>Password</label>
-            <input name = 'password' type = "text" onChange={handleOnChange}/>
-            <button onClick = {login}>Login</button>
-            {errormsg ? <p>{errormsg}</p> :''}
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={dpyellowlab} />
+                    <Card.Body>
+                        <Card.Title>Login</Card.Title>
+                             <Card.Text>
+                                <label>UserName</label>
+                                    <input name='user_name' type="text" onChange={handleOnChange} />
+                                <label>Password</label>
+                                    <input name='password' type="text" onChange={handleOnChange} />
+                                    <Button onClick={login} variant="primary">Login</Button>
+                                        {errormsg ? <p>{errormsg}</p> : ''}
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            
         </div>
     )
 

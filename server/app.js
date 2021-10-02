@@ -90,22 +90,40 @@ app.post('/login', (req, res) => {
      const pet_age = parseInt(req.body.pet_age)
      const customer_id = req.body.customer_id
 
-     db.none('INSERT INTO pets(pet_name, pet_breed, pet_gender, pet_fixed, pet_medical, pet_weight, pet_age, customer_id)VALUES($1, $2, $3, $4, $5, $6, $7, $8)', [pet_name, pet_breed, pet_gender, pet_fixed, pet_medical, pet_weight, pet_age, customer_id], (err, result) => {
-         if (err){
-             res.json({success: false, error:err})
-         }else{
-             res.json({success:true})
-         }
+     db.none('INSERT INTO pets(pet_name, pet_breed, pet_gender, pet_fixed, pet_medical, pet_weight, pet_age, customer_id) VALUES($1, $2, $3, $4, $5, $6, $7, $8)', [pet_name, pet_breed, pet_gender, pet_fixed, pet_medical, pet_weight, pet_age, customer_id]).then(() => {
+         res.json({success: true})
+     }).catch(error => {
+         res.json({success: false, error: error})
+     }) 
+
+
+ })
+
+ app.get('/customers/:customerId/pets', (req,res)=> {
+     const customerId = parseInt(req.params.customerId)
+     
+     db.any('SELECT pet_id, pet_name, customer_id FROM pets WHERE customer_id = $1', [customerId])
+     .then(pets => {
+         console.log(pets)
+         res.json(pets)
      })
  })
 
- app.get('/pets', (req,res)=> {
-     db.any('SELECT pet_id, pet_name, customer_id FROM pets')
-     .then(pets => {
-         console.log(pets)
-         res.json({success:true, pet:pet_name})
-     })
- })
+//  app.get('/add-service', (req,res) => {
+//      res.json(services)
+//  })
+
+//  app.post('/add-service', (req,res) =>{
+//      const fullgroom = req.body.fullgroom
+//      const tidygroom = req.body.tidygroom
+//      const none = req.body.none
+//      const theoakley = req.body.theoakley
+//      const theblue = req.body.theblue
+//      const bow_bow_tie = req.body.bow_bow_tie
+//      const necklace = req.body.necklace
+//      const polish = req.body.polish
+//      const hair_color = req.body.hair_color
+//  })
 
 
 

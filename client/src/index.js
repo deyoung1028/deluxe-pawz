@@ -13,6 +13,9 @@ import AddPet from './components/AddPet';
 import BaseLayout from './components/BaseLayout'; 
 import Profile from './pages/Profile';
 import Services from './components/Services';
+import AddServices from './components/AddServices';
+import About from './components/About';
+
 
 
 const store = createStore(Reducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
@@ -29,6 +32,8 @@ ReactDOM.render(
               <Route path = '/register' component = {Register}/> 
               <Route path = '/add-pet' component = {AddPet}/>
               <Route path = '/services' component = {Services}/>
+              <Route path = '/About' component = {About}/>
+              <Route path = '/AddServices' component = {AddServices}/>
            </Switch>
         </BaseLayout>
       </BrowserRouter>

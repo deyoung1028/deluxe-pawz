@@ -9,7 +9,7 @@ const reducer = (state = initialState, action) => {
         case 'ON_LOGIN':
             return{
                 ...state,
-                isAuthenticated: action.payload != null ? true : false
+                isAuthenticated: false
             }
         case 'ON_LOGOUT':
             return{
