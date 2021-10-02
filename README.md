@@ -43,23 +43,24 @@ The site landing page features a carousel displaying the mobile truck as well as
 ![about](https://user-images.githubusercontent.com/85690354/135724190-71fd2ff4-b9e3-4412-b5f1-5b54ea391e53.png)
 
 #### Front-End Technologies
-React
-Redux
-Bootstrap
-CSS
-JavaScript
+***
+*React
+*Redux
+*Bootstrap
+*CSS
+*JavaScript
 
 #### Back-End Technologies
-
-Node.js
-bcrypt
-Express
-pg-promise
+***
+*Node.js
+*bcrypt
+*Express
+*pg-promise
 
 #### Databse
-
-Elephant SQL
-PostgreSQL
+***
+*Elephant SQL
+*PostgreSQL
 
 #### Software Engineer
 
