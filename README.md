@@ -2,7 +2,7 @@
 
 ## App Name: Deluxe Pawz
 
--App link:
+-App link: http://deluxe-pawz.surge.sh/
 
 
 ## App Description 
